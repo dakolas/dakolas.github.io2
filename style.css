@@ -99,6 +99,27 @@ footer img {
   height: 100px;
 }
 
+#alert-panel {
+  display: none;
+  background: rgba(0,0,0, 0.5);
+}
+
+@keyframes fadeinoutYellow {
+  0%,100% { background: rgba(211, 186, 5, 0.5); }
+  50% { background: rgba(211, 186, 5, 1); } 
+}
+
+@keyframes fadeinoutOrange {
+  0%,100% { background: rgba(195, 115, 25, 0.5); }
+  50% { background: rgba(195, 115, 25, 1); } 
+}
+
+@keyframes fadeinoutRed {
+  0%,100% { background: rgba(250, 4, 4, 0.5); }
+  50% { background: rgba(250, 4, 4, 1); } 
+}
+
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
